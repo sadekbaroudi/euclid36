@@ -593,4 +593,996 @@ Text GLabel 5050 950  0    50   Input ~ 0
 COL0
 Text GLabel 5750 950  0    50   Input ~ 0
 COL1
+$Comp
+L euclid36-rescue:D_Small-Device D5
+U 1 1 60525C00
+P 6150 1650
+F 0 "D5" V 6196 1580 50  0000 R CNN
+F 1 "SOD-123" V 6105 1580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6150 1650 50  0001 C CNN
+F 3 "~" V 6150 1650 50  0001 C CNN
+	1    6150 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 60525C06
+P 6300 1400
+F 0 "MX5" H 6333 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 1549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5675 1375 60  0001 C CNN
+F 3 "" H 5675 1375 60  0001 C CNN
+	1    6300 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1550 6250 1550
+$Comp
+L euclid36-rescue:D_Small-Device D6
+U 1 1 6052AA7E
+P 6900 1650
+F 0 "D6" V 6946 1580 50  0000 R CNN
+F 1 "SOD-123" V 6855 1580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6900 1650 50  0001 C CNN
+F 3 "~" V 6900 1650 50  0001 C CNN
+	1    6900 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 6052AA84
+P 7050 1400
+F 0 "MX6" H 7083 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 1549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6425 1375 60  0001 C CNN
+F 3 "" H 6425 1375 60  0001 C CNN
+	1    7050 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1550 7000 1550
+$Comp
+L euclid36-rescue:D_Small-Device D7
+U 1 1 6053387A
+P 7650 1650
+F 0 "D7" V 7696 1580 50  0000 R CNN
+F 1 "SOD-123" V 7605 1580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7650 1650 50  0001 C CNN
+F 3 "~" V 7650 1650 50  0001 C CNN
+	1    7650 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 60533880
+P 7800 1400
+F 0 "MX7" H 7833 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 1549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7175 1375 60  0001 C CNN
+F 3 "" H 7175 1375 60  0001 C CNN
+	1    7800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1550 7750 1550
+$Comp
+L euclid36-rescue:D_Small-Device D8
+U 1 1 60533887
+P 8400 1650
+F 0 "D8" V 8446 1580 50  0000 R CNN
+F 1 "SOD-123" V 8355 1580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8400 1650 50  0001 C CNN
+F 3 "~" V 8400 1650 50  0001 C CNN
+	1    8400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 6053388D
+P 8550 1400
+F 0 "MX8" H 8583 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 8583 1549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7925 1375 60  0001 C CNN
+F 3 "" H 7925 1375 60  0001 C CNN
+	1    8550 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1550 8500 1550
+$Comp
+L euclid36-rescue:D_Small-Device D9
+U 1 1 6053C00C
+P 6150 2400
+F 0 "D9" V 6196 2330 50  0000 R CNN
+F 1 "SOD-123" V 6105 2330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6150 2400 50  0001 C CNN
+F 3 "~" V 6150 2400 50  0001 C CNN
+	1    6150 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 6053C012
+P 6300 2150
+F 0 "MX9" H 6333 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 2299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5675 2125 60  0001 C CNN
+F 3 "" H 5675 2125 60  0001 C CNN
+	1    6300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2300 6250 2300
+$Comp
+L euclid36-rescue:D_Small-Device D10
+U 1 1 6053C019
+P 6900 2400
+F 0 "D10" V 6946 2330 50  0000 R CNN
+F 1 "SOD-123" V 6855 2330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6900 2400 50  0001 C CNN
+F 3 "~" V 6900 2400 50  0001 C CNN
+	1    6900 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 6053C01F
+P 7050 2150
+F 0 "MX10" H 7083 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 2299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6425 2125 60  0001 C CNN
+F 3 "" H 6425 2125 60  0001 C CNN
+	1    7050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2300 7000 2300
+$Comp
+L euclid36-rescue:D_Small-Device D11
+U 1 1 6053C026
+P 7650 2400
+F 0 "D11" V 7696 2330 50  0000 R CNN
+F 1 "SOD-123" V 7605 2330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7650 2400 50  0001 C CNN
+F 3 "~" V 7650 2400 50  0001 C CNN
+	1    7650 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 6053C02C
+P 7800 2150
+F 0 "MX11" H 7833 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 2299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7175 2125 60  0001 C CNN
+F 3 "" H 7175 2125 60  0001 C CNN
+	1    7800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2300 7750 2300
+$Comp
+L euclid36-rescue:D_Small-Device D12
+U 1 1 6053C033
+P 8400 2400
+F 0 "D12" V 8446 2330 50  0000 R CNN
+F 1 "SOD-123" V 8355 2330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8400 2400 50  0001 C CNN
+F 3 "~" V 8400 2400 50  0001 C CNN
+	1    8400 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 6053C039
+P 8550 2150
+F 0 "MX12" H 8583 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 8583 2299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7925 2125 60  0001 C CNN
+F 3 "" H 7925 2125 60  0001 C CNN
+	1    8550 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2300 8500 2300
+Wire Wire Line
+	4750 3050 4850 3050
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 60563DC2
+P 4900 2900
+F 0 "MX13" H 4933 3123 60  0000 C CNN
+F 1 "MX-NoLED" H 4933 3049 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4275 2875 60  0001 C CNN
+F 3 "" H 4275 2875 60  0001 C CNN
+	1    4900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D13
+U 1 1 60563DBC
+P 4750 3150
+F 0 "D13" V 4796 3080 50  0000 R CNN
+F 1 "SOD-123" V 4705 3080 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4750 3150 50  0001 C CNN
+F 3 "~" V 4750 3150 50  0001 C CNN
+	1    4750 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3050 8500 3050
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 6055ACA5
+P 8550 2900
+F 0 "MX18" H 8583 3123 60  0000 C CNN
+F 1 "MX-NoLED" H 8583 3049 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7925 2875 60  0001 C CNN
+F 3 "" H 7925 2875 60  0001 C CNN
+	1    8550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D18
+U 1 1 6055AC9F
+P 8400 3150
+F 0 "D18" V 8446 3080 50  0000 R CNN
+F 1 "SOD-123" V 8355 3080 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8400 3150 50  0001 C CNN
+F 3 "~" V 8400 3150 50  0001 C CNN
+	1    8400 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 3050 7750 3050
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 6055AC98
+P 7800 2900
+F 0 "MX17" H 7833 3123 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 3049 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7175 2875 60  0001 C CNN
+F 3 "" H 7175 2875 60  0001 C CNN
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D17
+U 1 1 6055AC92
+P 7650 3150
+F 0 "D17" V 7696 3080 50  0000 R CNN
+F 1 "SOD-123" V 7605 3080 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7650 3150 50  0001 C CNN
+F 3 "~" V 7650 3150 50  0001 C CNN
+	1    7650 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 3800 5550 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 6057EF9A
+P 5600 3650
+F 0 "MX20" H 5633 3873 60  0000 C CNN
+F 1 "MX-NoLED" H 5633 3799 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4975 3625 60  0001 C CNN
+F 3 "" H 4975 3625 60  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D20
+U 1 1 6057EFA0
+P 5450 3900
+F 0 "D20" V 5496 3830 50  0000 R CNN
+F 1 "SOD-123" V 5405 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5450 3900 50  0001 C CNN
+F 3 "~" V 5450 3900 50  0001 C CNN
+	1    5450 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 3800 4850 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 6057EFA7
+P 4900 3650
+F 0 "MX19" H 4933 3873 60  0000 C CNN
+F 1 "MX-NoLED" H 4933 3799 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4275 3625 60  0001 C CNN
+F 3 "" H 4275 3625 60  0001 C CNN
+	1    4900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D19
+U 1 1 6057EFAD
+P 4750 3900
+F 0 "D19" V 4796 3830 50  0000 R CNN
+F 1 "SOD-123" V 4705 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4750 3900 50  0001 C CNN
+F 3 "~" V 4750 3900 50  0001 C CNN
+	1    4750 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3800 8500 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX24
+U 1 1 6057EFB4
+P 8550 3650
+F 0 "MX24" H 8583 3873 60  0000 C CNN
+F 1 "MX-NoLED" H 8583 3799 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7925 3625 60  0001 C CNN
+F 3 "" H 7925 3625 60  0001 C CNN
+	1    8550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D24
+U 1 1 6057EFBA
+P 8400 3900
+F 0 "D24" V 8446 3830 50  0000 R CNN
+F 1 "SOD-123" V 8355 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8400 3900 50  0001 C CNN
+F 3 "~" V 8400 3900 50  0001 C CNN
+	1    8400 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 3800 7750 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 6057EFC1
+P 7800 3650
+F 0 "MX23" H 7833 3873 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 3799 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7175 3625 60  0001 C CNN
+F 3 "" H 7175 3625 60  0001 C CNN
+	1    7800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D23
+U 1 1 6057EFC7
+P 7650 3900
+F 0 "D23" V 7696 3830 50  0000 R CNN
+F 1 "SOD-123" V 7605 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7650 3900 50  0001 C CNN
+F 3 "~" V 7650 3900 50  0001 C CNN
+	1    7650 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 3800 7000 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX22
+U 1 1 6057EFCE
+P 7050 3650
+F 0 "MX22" H 7083 3873 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 3799 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6425 3625 60  0001 C CNN
+F 3 "" H 6425 3625 60  0001 C CNN
+	1    7050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D22
+U 1 1 6057EFD4
+P 6900 3900
+F 0 "D22" V 6946 3830 50  0000 R CNN
+F 1 "SOD-123" V 6855 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6900 3900 50  0001 C CNN
+F 3 "~" V 6900 3900 50  0001 C CNN
+	1    6900 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3800 6250 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 6057EFDB
+P 6300 3650
+F 0 "MX21" H 6333 3873 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 3799 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5675 3625 60  0001 C CNN
+F 3 "" H 5675 3625 60  0001 C CNN
+	1    6300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D21
+U 1 1 6057EFE1
+P 6150 3900
+F 0 "D21" V 6196 3830 50  0000 R CNN
+F 1 "SOD-123" V 6105 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6150 3900 50  0001 C CNN
+F 3 "~" V 6150 3900 50  0001 C CNN
+	1    6150 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 4550 5550 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX26
+U 1 1 605D0EDA
+P 5600 4400
+F 0 "MX26" H 5633 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 5633 4549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4975 4375 60  0001 C CNN
+F 3 "" H 4975 4375 60  0001 C CNN
+	1    5600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D26
+U 1 1 605D0EE0
+P 5450 4650
+F 0 "D26" V 5496 4580 50  0000 R CNN
+F 1 "SOD-123" V 5405 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5450 4650 50  0001 C CNN
+F 3 "~" V 5450 4650 50  0001 C CNN
+	1    5450 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 4550 4850 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX25
+U 1 1 605D0EE7
+P 4900 4400
+F 0 "MX25" H 4933 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 4933 4549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4275 4375 60  0001 C CNN
+F 3 "" H 4275 4375 60  0001 C CNN
+	1    4900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D25
+U 1 1 605D0EED
+P 4750 4650
+F 0 "D25" V 4796 4580 50  0000 R CNN
+F 1 "SOD-123" V 4705 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4750 4650 50  0001 C CNN
+F 3 "~" V 4750 4650 50  0001 C CNN
+	1    4750 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 4550 8500 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX30
+U 1 1 605D0EF4
+P 8550 4400
+F 0 "MX30" H 8583 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 8583 4549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7925 4375 60  0001 C CNN
+F 3 "" H 7925 4375 60  0001 C CNN
+	1    8550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D30
+U 1 1 605D0EFA
+P 8400 4650
+F 0 "D30" V 8446 4580 50  0000 R CNN
+F 1 "SOD-123" V 8355 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8400 4650 50  0001 C CNN
+F 3 "~" V 8400 4650 50  0001 C CNN
+	1    8400 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 4550 7750 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX29
+U 1 1 605D0F01
+P 7800 4400
+F 0 "MX29" H 7833 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 4549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7175 4375 60  0001 C CNN
+F 3 "" H 7175 4375 60  0001 C CNN
+	1    7800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D29
+U 1 1 605D0F07
+P 7650 4650
+F 0 "D29" V 7696 4580 50  0000 R CNN
+F 1 "SOD-123" V 7605 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7650 4650 50  0001 C CNN
+F 3 "~" V 7650 4650 50  0001 C CNN
+	1    7650 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 4550 7000 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX28
+U 1 1 605D0F0E
+P 7050 4400
+F 0 "MX28" H 7083 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 4549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6425 4375 60  0001 C CNN
+F 3 "" H 6425 4375 60  0001 C CNN
+	1    7050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D28
+U 1 1 605D0F14
+P 6900 4650
+F 0 "D28" V 6946 4580 50  0000 R CNN
+F 1 "SOD-123" V 6855 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6900 4650 50  0001 C CNN
+F 3 "~" V 6900 4650 50  0001 C CNN
+	1    6900 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 4550 6250 4550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX27
+U 1 1 605D0F1B
+P 6300 4400
+F 0 "MX27" H 6333 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 4549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5675 4375 60  0001 C CNN
+F 3 "" H 5675 4375 60  0001 C CNN
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D27
+U 1 1 605D0F21
+P 6150 4650
+F 0 "D27" V 6196 4580 50  0000 R CNN
+F 1 "SOD-123" V 6105 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6150 4650 50  0001 C CNN
+F 3 "~" V 6150 4650 50  0001 C CNN
+	1    6150 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 5300 5550 5300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX32
+U 1 1 605D0F28
+P 5600 5150
+F 0 "MX32" H 5633 5373 60  0000 C CNN
+F 1 "MX-NoLED" H 5633 5299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4975 5125 60  0001 C CNN
+F 3 "" H 4975 5125 60  0001 C CNN
+	1    5600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D32
+U 1 1 605D0F2E
+P 5450 5400
+F 0 "D32" V 5496 5330 50  0000 R CNN
+F 1 "SOD-123" V 5405 5330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5450 5400 50  0001 C CNN
+F 3 "~" V 5450 5400 50  0001 C CNN
+	1    5450 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 5300 4850 5300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX31
+U 1 1 605D0F35
+P 4900 5150
+F 0 "MX31" H 4933 5373 60  0000 C CNN
+F 1 "MX-NoLED" H 4933 5299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4275 5125 60  0001 C CNN
+F 3 "" H 4275 5125 60  0001 C CNN
+	1    4900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D31
+U 1 1 605D0F3B
+P 4750 5400
+F 0 "D31" V 4796 5330 50  0000 R CNN
+F 1 "SOD-123" V 4705 5330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4750 5400 50  0001 C CNN
+F 3 "~" V 4750 5400 50  0001 C CNN
+	1    4750 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 5300 8500 5300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX36
+U 1 1 605D0F42
+P 8550 5150
+F 0 "MX36" H 8583 5373 60  0000 C CNN
+F 1 "MX-NoLED" H 8583 5299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7925 5125 60  0001 C CNN
+F 3 "" H 7925 5125 60  0001 C CNN
+	1    8550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D36
+U 1 1 605D0F48
+P 8400 5400
+F 0 "D36" V 8446 5330 50  0000 R CNN
+F 1 "SOD-123" V 8355 5330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8400 5400 50  0001 C CNN
+F 3 "~" V 8400 5400 50  0001 C CNN
+	1    8400 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 5300 7750 5300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX35
+U 1 1 605D0F4F
+P 7800 5150
+F 0 "MX35" H 7833 5373 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 5299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7175 5125 60  0001 C CNN
+F 3 "" H 7175 5125 60  0001 C CNN
+	1    7800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D35
+U 1 1 605D0F55
+P 7650 5400
+F 0 "D35" V 7696 5330 50  0000 R CNN
+F 1 "SOD-123" V 7605 5330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7650 5400 50  0001 C CNN
+F 3 "~" V 7650 5400 50  0001 C CNN
+	1    7650 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 5300 7000 5300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX34
+U 1 1 605D0F5C
+P 7050 5150
+F 0 "MX34" H 7083 5373 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 5299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6425 5125 60  0001 C CNN
+F 3 "" H 6425 5125 60  0001 C CNN
+	1    7050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D34
+U 1 1 605D0F62
+P 6900 5400
+F 0 "D34" V 6946 5330 50  0000 R CNN
+F 1 "SOD-123" V 6855 5330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6900 5400 50  0001 C CNN
+F 3 "~" V 6900 5400 50  0001 C CNN
+	1    6900 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 5300 6250 5300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX33
+U 1 1 605D0F69
+P 6300 5150
+F 0 "MX33" H 6333 5373 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 5299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5675 5125 60  0001 C CNN
+F 3 "" H 5675 5125 60  0001 C CNN
+	1    6300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L euclid36-rescue:D_Small-Device D33
+U 1 1 605D0F6F
+P 6150 5400
+F 0 "D33" V 6196 5330 50  0000 R CNN
+F 1 "SOD-123" V 6105 5330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6150 5400 50  0001 C CNN
+F 3 "~" V 6150 5400 50  0001 C CNN
+	1    6150 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 2500 6150 2500
+Connection ~ 5450 2500
+Connection ~ 6150 2500
+Wire Wire Line
+	6150 2500 6900 2500
+Connection ~ 6900 2500
+Wire Wire Line
+	6900 2500 7650 2500
+Connection ~ 7650 2500
+Wire Wire Line
+	7650 2500 8400 2500
+Wire Wire Line
+	5450 1750 6150 1750
+Connection ~ 5450 1750
+Connection ~ 6150 1750
+Wire Wire Line
+	6150 1750 6900 1750
+Connection ~ 6900 1750
+Wire Wire Line
+	6900 1750 7650 1750
+Connection ~ 7650 1750
+Wire Wire Line
+	7650 1750 8400 1750
+Wire Wire Line
+	4400 3250 4750 3250
+Connection ~ 4750 3250
+Connection ~ 7650 3250
+Wire Wire Line
+	7650 3250 8400 3250
+Wire Wire Line
+	4400 4000 4750 4000
+Connection ~ 4750 4000
+Wire Wire Line
+	4750 4000 5450 4000
+Connection ~ 6150 4000
+Wire Wire Line
+	6150 4000 6900 4000
+Connection ~ 6900 4000
+Wire Wire Line
+	6900 4000 7650 4000
+Connection ~ 7650 4000
+Wire Wire Line
+	7650 4000 8400 4000
+Wire Wire Line
+	4400 5500 4750 5500
+Connection ~ 4750 5500
+Wire Wire Line
+	4750 5500 5450 5500
+Connection ~ 6150 5500
+Wire Wire Line
+	6150 5500 6900 5500
+Connection ~ 6900 5500
+Wire Wire Line
+	6900 5500 7650 5500
+Connection ~ 7650 5500
+Wire Wire Line
+	7650 5500 8400 5500
+Wire Wire Line
+	4400 4750 4750 4750
+Connection ~ 4750 4750
+Wire Wire Line
+	4750 4750 5450 4750
+Connection ~ 6150 4750
+Wire Wire Line
+	6150 4750 6900 4750
+Connection ~ 6900 4750
+Wire Wire Line
+	6900 4750 7650 4750
+Connection ~ 7650 4750
+Wire Wire Line
+	7650 4750 8400 4750
+Wire Wire Line
+	5050 2100 5050 2850
+Connection ~ 5050 2100
+Connection ~ 5050 2850
+Wire Wire Line
+	5050 2850 5050 3600
+Connection ~ 5050 3600
+Wire Wire Line
+	5050 3600 5050 4350
+Connection ~ 5050 4350
+Wire Wire Line
+	5050 4350 5050 5100
+Wire Wire Line
+	6900 3250 7650 3250
+Connection ~ 6900 3250
+Connection ~ 6150 3250
+Wire Wire Line
+	6150 3250 6900 3250
+Wire Wire Line
+	4750 3250 5450 3250
+$Comp
+L euclid36-rescue:D_Small-Device D15
+U 1 1 6055AC78
+P 6150 3150
+F 0 "D15" V 6196 3080 50  0000 R CNN
+F 1 "SOD-123" V 6105 3080 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6150 3150 50  0001 C CNN
+F 3 "~" V 6150 3150 50  0001 C CNN
+	1    6150 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 6055AC7E
+P 6300 2900
+F 0 "MX15" H 6333 3123 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 3049 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5675 2875 60  0001 C CNN
+F 3 "" H 5675 2875 60  0001 C CNN
+	1    6300 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3050 6250 3050
+$Comp
+L euclid36-rescue:D_Small-Device D16
+U 1 1 6055AC85
+P 6900 3150
+F 0 "D16" V 6946 3080 50  0000 R CNN
+F 1 "SOD-123" V 6855 3080 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6900 3150 50  0001 C CNN
+F 3 "~" V 6900 3150 50  0001 C CNN
+	1    6900 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 6055AC8B
+P 7050 2900
+F 0 "MX16" H 7083 3123 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 3049 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6425 2875 60  0001 C CNN
+F 3 "" H 6425 2875 60  0001 C CNN
+	1    7050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3050 7000 3050
+$Comp
+L euclid36-rescue:D_Small-Device D14
+U 1 1 60563DC9
+P 5450 3150
+F 0 "D14" V 5496 3080 50  0000 R CNN
+F 1 "SOD-123" V 5405 3080 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5450 3150 50  0001 C CNN
+F 3 "~" V 5450 3150 50  0001 C CNN
+	1    5450 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 60563DCF
+P 5600 2900
+F 0 "MX14" H 5633 3123 60  0000 C CNN
+F 1 "MX-NoLED" H 5633 3049 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4975 2875 60  0001 C CNN
+F 3 "" H 4975 2875 60  0001 C CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3050 5550 3050
+Connection ~ 5450 3250
+Wire Wire Line
+	5450 3250 6150 3250
+Connection ~ 5450 4000
+Wire Wire Line
+	5450 4000 6150 4000
+Connection ~ 5450 4750
+Wire Wire Line
+	5450 4750 6150 4750
+Connection ~ 5450 5500
+Wire Wire Line
+	5450 5500 6150 5500
+Wire Wire Line
+	5750 2100 5750 2850
+Connection ~ 5750 2100
+Connection ~ 5750 2850
+Wire Wire Line
+	5750 2850 5750 3600
+Connection ~ 5750 3600
+Wire Wire Line
+	5750 3600 5750 4350
+Connection ~ 5750 4350
+Wire Wire Line
+	5750 4350 5750 5100
+Wire Wire Line
+	6450 1350 6450 2100
+Connection ~ 6450 2100
+Wire Wire Line
+	6450 2100 6450 2850
+Connection ~ 6450 2850
+Wire Wire Line
+	6450 2850 6450 3600
+Connection ~ 6450 3600
+Wire Wire Line
+	6450 3600 6450 4350
+Connection ~ 6450 4350
+Wire Wire Line
+	6450 4350 6450 5100
+Wire Wire Line
+	6450 950  6450 1350
+Connection ~ 6450 1350
+Wire Wire Line
+	7200 950  7200 1350
+Connection ~ 7200 1350
+Wire Wire Line
+	7200 1350 7200 2100
+Connection ~ 7200 2100
+Wire Wire Line
+	7200 2100 7200 2850
+Connection ~ 7200 2850
+Wire Wire Line
+	7200 2850 7200 3600
+Connection ~ 7200 3600
+Wire Wire Line
+	7200 3600 7200 4350
+Connection ~ 7200 4350
+Wire Wire Line
+	7200 4350 7200 5100
+Wire Wire Line
+	7950 950  7950 1350
+Connection ~ 7950 1350
+Wire Wire Line
+	7950 1350 7950 2100
+Connection ~ 7950 2100
+Wire Wire Line
+	7950 2100 7950 2850
+Connection ~ 7950 2850
+Wire Wire Line
+	7950 2850 7950 3600
+Connection ~ 7950 3600
+Wire Wire Line
+	7950 3600 7950 4350
+Connection ~ 7950 4350
+Wire Wire Line
+	7950 4350 7950 5100
+Wire Wire Line
+	8700 950  8700 1350
+Connection ~ 8700 1350
+Wire Wire Line
+	8700 1350 8700 2100
+Connection ~ 8700 2100
+Wire Wire Line
+	8700 2100 8700 2850
+Connection ~ 8700 2850
+Wire Wire Line
+	8700 2850 8700 3600
+Connection ~ 8700 3600
+Wire Wire Line
+	8700 3600 8700 4350
+Connection ~ 8700 4350
+Wire Wire Line
+	8700 4350 8700 5100
+Text GLabel 6450 950  0    50   Input ~ 0
+COL2
+Text GLabel 7200 950  0    50   Input ~ 0
+COL3
+Text GLabel 7950 950  0    50   Input ~ 0
+COL4
+Text GLabel 8700 950  0    50   Input ~ 0
+COL5
+Text GLabel 4400 3250 0    50   Input ~ 0
+ROW2
+Text GLabel 4400 4000 0    50   Input ~ 0
+ROW3
+Text GLabel 4400 4750 0    50   Input ~ 0
+ROW4
+Text GLabel 4400 5500 0    50   Input ~ 0
+ROW5
+Text GLabel 3300 1850 2    50   Input ~ 0
+COL0
+Text GLabel 3300 1750 2    50   Input ~ 0
+COL1
+Text GLabel 3300 1650 2    50   Input ~ 0
+COL2
+Text GLabel 3300 1550 2    50   Input ~ 0
+COL3
+Text GLabel 3300 1450 2    50   Input ~ 0
+COL4
+Text GLabel 3300 1350 2    50   Input ~ 0
+COL5
+Text GLabel 3300 3250 2    50   Input ~ 0
+ROW0
+Text GLabel 3300 3150 2    50   Input ~ 0
+ROW1
+Text GLabel 3300 3050 2    50   Input ~ 0
+ROW2
+Text GLabel 3300 2950 2    50   Input ~ 0
+ROW3
+Text GLabel 3300 2850 2    50   Input ~ 0
+ROW4
+Text GLabel 3300 2750 2    50   Input ~ 0
+ROW5
 $EndSCHEMATC
