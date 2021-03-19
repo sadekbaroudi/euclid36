@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/libraries/libs/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name mkl27z256vfm4)(type Legacy)(uri ${KIPRJMOD}/libraries/libs/mkl27z256vfm4.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri ${KIPRJMOD}/libraries/libs/MX_Alps_Hybrid.lib)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri ${KIPRJMOD}/libraries/libs/random-keyboard-parts.lib)(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/libraries/libs/Type-C.lib)(options "")(descr ""))
+  (lib (name ws2812b)(type Legacy)(uri ${KIPRJMOD}/libraries/libs/ws2812b.lib)(options "")(descr ""))
+  (lib (name reviung41-rescue)(type Legacy)(uri ${KIPRJMOD}/reviung41-rescue.lib)(options "")(descr ""))
+  (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/libraries/libs/kbd.lib)(options "")(descr ""))
+)
