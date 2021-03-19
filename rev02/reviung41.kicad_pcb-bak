@@ -23,7 +23,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user hide)
+    (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -754,7 +754,7 @@
   )
 
   (module _reviung-kbd:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 6054AD9F)
-    (at 196.649402 104.581057 15)
+    (at 214.392888 97.197103 15)
     (path /5DCE2790)
     (attr smd)
     (fp_text reference SW32 (at 0 3.048 15) (layer B.CrtYd)
@@ -800,7 +800,7 @@
   )
 
   (module _reviung-kbd:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 6054AD7D)
-    (at 191.7189 86.180171 15)
+    (at 196.649402 104.581057 15)
     (path /5DCE279C)
     (attr smd)
     (fp_text reference SW31 (at 0 3.048 15) (layer B.CrtYd)
@@ -1030,7 +1030,7 @@
   )
 
   (module _reviung-kbd:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 6054ACD3)
-    (at 214.392888 97.197103 15)
+    (at 191.7189 86.180171 15)
     (path /5DCDCFBD)
     (attr smd)
     (fp_text reference SW25 (at 0 3.048 15) (layer B.CrtYd)
@@ -2531,15 +2531,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A8FF)
-    (at 40.08125 327.81875)
+    (at 190.227343 141.908829 125)
     (descr "Resitance 3 pas")
     (tags R)
     (path /60535CEC)
     (autoplace_cost180 10)
-    (fp_text reference D42 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D42 (at 0.5 0 125) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 125) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2558,13 +2558,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 125) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(D42-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 125) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 37 row6))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 125) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 63 "Net-(D42-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 125) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 37 row6))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2574,15 +2574,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A8E7)
-    (at 46.63125 327.81875)
+    (at 230.584109 125.728696 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE7A85)
     (autoplace_cost180 10)
-    (fp_text reference D41 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D41 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2601,13 +2601,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(D41-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 37 row6))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 42 "Net-(D41-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 37 row6))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2617,15 +2617,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A8CF)
-    (at 26.98125 326.54875)
+    (at 209.644301 132.35999 115)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE7A4F)
     (autoplace_cost180 10)
-    (fp_text reference D40 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D40 (at 0.5 0 115) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 115) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2644,13 +2644,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 115) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 41 "Net-(D40-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 115) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 37 row6))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 115) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 41 "Net-(D40-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 115) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 37 row6))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2660,15 +2660,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A8B7)
-    (at 46.63125 330.46875)
+    (at 147.388453 151.378575 55)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE7A5B)
     (autoplace_cost180 10)
-    (fp_text reference D39 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D39 (at 0.5 0 55) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 55) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2687,13 +2687,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 55) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 40 "Net-(D39-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 55) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 37 row6))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 55) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 40 "Net-(D39-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 55) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 37 row6))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2703,15 +2703,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A89F)
-    (at 26.98125 329.19875)
+    (at 129.410435 139.337416 65)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE7A67)
     (autoplace_cost180 10)
-    (fp_text reference D38 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D38 (at 0.5 0 65) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 65) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2730,13 +2730,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 65) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(D38-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 65) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 37 row6))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 65) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 39 "Net-(D38-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 65) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 37 row6))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2746,15 +2746,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A887)
-    (at 53.18125 330.46875)
+    (at 109.454921 130.001798 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE7A73)
     (autoplace_cost180 10)
-    (fp_text reference D37 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D37 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2773,13 +2773,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(D37-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 37 row6))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 38 "Net-(D37-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 37 row6))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2789,15 +2789,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A86F)
-    (at 59.73125 327.81875)
+    (at 280.198863 90.082851 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE27A8)
     (autoplace_cost180 10)
-    (fp_text reference D35 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D35 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2816,13 +2816,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 36 "Net-(D35-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 31 row5))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 36 "Net-(D35-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 31 row5))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2832,15 +2832,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A857)
-    (at 66.28125 327.81875)
+    (at 259.168377 85.199548 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE2772)
     (autoplace_cost180 10)
-    (fp_text reference D34 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D34 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2859,13 +2859,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 35 "Net-(D34-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 31 row5))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 35 "Net-(D34-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 31 row5))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2875,15 +2875,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A83F)
-    (at 59.73125 330.46875)
+    (at 239.45269 85.223147 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE277E)
     (autoplace_cost180 10)
-    (fp_text reference D33 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D33 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2902,13 +2902,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 34 "Net-(D33-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 31 row5))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 34 "Net-(D33-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 31 row5))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2918,15 +2918,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A827)
-    (at 66.28125 330.46875)
+    (at 222.366605 95.060552 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE278A)
     (autoplace_cost180 10)
-    (fp_text reference D32 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D32 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2945,13 +2945,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 33 "Net-(D32-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 31 row5))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 33 "Net-(D32-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 31 row5))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -2961,15 +2961,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A80F)
-    (at 72.83125 327.81875)
+    (at 204.623119 102.444506 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCE2796)
     (autoplace_cost180 10)
-    (fp_text reference D31 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D31 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -2988,13 +2988,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 32 "Net-(D31-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 31 row5))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 32 "Net-(D31-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 31 row5))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3004,15 +3004,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A7F7)
-    (at 40.08125 330.46875)
+    (at 275.268361 71.681965 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCDCFC9)
     (autoplace_cost180 10)
-    (fp_text reference D29 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D29 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3031,13 +3031,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 30 "Net-(D29-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 25 row4))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 30 "Net-(D29-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 25 row4))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3047,15 +3047,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A7DF)
-    (at 33.53125 330.46875)
+    (at 254.237875 66.798662 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCDCF93)
     (autoplace_cost180 10)
-    (fp_text reference D28 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D28 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3074,13 +3074,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 29 "Net-(D28-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 25 row4))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 29 "Net-(D28-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 25 row4))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3090,15 +3090,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A7C7)
-    (at 33.53125 327.81875)
+    (at 234.522188 66.822261 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCDCF9F)
     (autoplace_cost180 10)
-    (fp_text reference D27 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D27 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3117,13 +3117,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 28 "Net-(D27-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 25 row4))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 28 "Net-(D27-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 25 row4))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3133,15 +3133,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A7AF)
-    (at 112.13125 330.46875)
+    (at 217.436103 76.659666 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCDCFAB)
     (autoplace_cost180 10)
-    (fp_text reference D26 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D26 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3160,13 +3160,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 27 "Net-(D26-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 25 row4))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 27 "Net-(D26-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 25 row4))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3176,15 +3176,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A797)
-    (at 85.93125 327.81875)
+    (at 199.692617 84.04362 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCDCFB7)
     (autoplace_cost180 10)
-    (fp_text reference D25 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D25 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3203,13 +3203,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 26 "Net-(D25-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 25 row4))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 26 "Net-(D25-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 25 row4))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3219,15 +3219,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A77F)
-    (at 79.38125 330.46875)
+    (at 270.337859 53.281079 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD8236)
     (autoplace_cost180 10)
-    (fp_text reference D23 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D23 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3246,13 +3246,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 24 "Net-(D23-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 19 row3))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 24 "Net-(D23-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 19 row3))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3262,15 +3262,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A767)
-    (at 85.93125 330.46875)
+    (at 249.307373 48.397776 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD8200)
     (autoplace_cost180 10)
-    (fp_text reference D22 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D22 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3289,13 +3289,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 23 "Net-(D22-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 19 row3))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 23 "Net-(D22-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 19 row3))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3305,15 +3305,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A74F)
-    (at 92.48125 327.81875)
+    (at 229.591686 48.421375 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD820C)
     (autoplace_cost180 10)
-    (fp_text reference D21 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D21 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3332,13 +3332,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 22 "Net-(D21-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 19 row3))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 22 "Net-(D21-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 19 row3))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3348,15 +3348,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A737)
-    (at 92.48125 330.46875)
+    (at 212.505601 58.25878 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD8218)
     (autoplace_cost180 10)
-    (fp_text reference D20 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D20 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3375,13 +3375,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 21 "Net-(D20-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 19 row3))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 21 "Net-(D20-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 19 row3))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3391,15 +3391,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A71F)
-    (at 99.03125 327.81875)
+    (at 194.762115 65.642734 105)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD8224)
     (autoplace_cost180 10)
-    (fp_text reference D19 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D19 (at 0.5 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 105) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3418,13 +3418,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 20 "Net-(D19-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 19 row3))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 105) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 20 "Net-(D19-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 105) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 19 row3))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3434,15 +3434,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A707)
-    (at 99.03125 330.46875)
+    (at 135.415911 106.717608 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD2B7D)
     (autoplace_cost180 10)
-    (fp_text reference D18 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D18 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3461,13 +3461,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 18 "Net-(D18-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 13 row2))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 18 "Net-(D18-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 13 row2))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3477,15 +3477,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A6EF)
-    (at 105.58125 327.81875)
+    (at 117.672425 99.333654 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD2B71)
     (autoplace_cost180 10)
-    (fp_text reference D17 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D17 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3504,13 +3504,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 17 "Net-(D17-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 13 row2))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 17 "Net-(D17-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 13 row2))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3520,15 +3520,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A6D7)
-    (at 112.13125 327.81875)
+    (at 100.58634 89.496249 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD2B3B)
     (autoplace_cost180 10)
-    (fp_text reference D16 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D16 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3547,13 +3547,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(D16-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 13 row2))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 16 "Net-(D16-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 13 row2))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3563,15 +3563,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A6BF)
-    (at 72.83125 330.46875)
+    (at 80.870653 89.47265 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD2B47)
     (autoplace_cost180 10)
-    (fp_text reference D15 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D15 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3590,13 +3590,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(D15-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 13 row2))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 15 "Net-(D15-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 13 row2))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3606,15 +3606,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A6A7)
-    (at 79.38125 327.81875)
+    (at 59.840167 94.355954 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCD2B53)
     (autoplace_cost180 10)
-    (fp_text reference D14 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D14 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3633,13 +3633,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(D14-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 13 row2))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 14 "Net-(D14-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 13 row2))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3649,15 +3649,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A68F)
-    (at 187.50125 260.25875)
+    (at 140.346413 88.316722 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCCCAF8)
     (autoplace_cost180 10)
-    (fp_text reference D12 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D12 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3676,13 +3676,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(D12-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 7 row1))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 12 "Net-(D12-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 7 row1))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3692,15 +3692,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A677)
-    (at 118.68125 327.81875)
+    (at 122.602927 80.932768 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCCCAEC)
     (autoplace_cost180 10)
-    (fp_text reference D11 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D11 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3719,13 +3719,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 11 "Net-(D11-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 7 row1))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 11 "Net-(D11-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 7 row1))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3735,15 +3735,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A65F)
-    (at 195.92125 246.67875)
+    (at 122.602927 80.932768 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCCCAB6)
     (autoplace_cost180 10)
-    (fp_text reference D10 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D10 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3762,13 +3762,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(D10-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 7 row1))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 10 "Net-(D10-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 7 row1))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3778,15 +3778,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A647)
-    (at 195.92125 249.32875)
+    (at 85.801155 71.071764 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCCCAC2)
     (autoplace_cost180 10)
-    (fp_text reference D9 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D9 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3805,13 +3805,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 9 "Net-(D9-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 7 row1))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 9 "Net-(D9-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 7 row1))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3821,15 +3821,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A62F)
-    (at 118.68125 330.46875)
+    (at 64.770669 75.955068 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCCCACE)
     (autoplace_cost180 10)
-    (fp_text reference D8 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D8 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3848,13 +3848,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(D8-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 7 row1))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 8 "Net-(D8-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 7 row1))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3864,15 +3864,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A617)
-    (at 195.92125 251.97875)
+    (at 145.276915 69.915836 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCC4CF9)
     (autoplace_cost180 10)
-    (fp_text reference D6 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D6 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3891,13 +3891,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 6 "Net-(D6-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 1 row0))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 6 "Net-(D6-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 1 row0))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3907,15 +3907,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A5FF)
-    (at 179.08125 273.49875)
+    (at 127.533429 62.531882 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCC4CED)
     (autoplace_cost180 10)
-    (fp_text reference D5 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D5 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3934,13 +3934,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(D5-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 1 row0))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 5 "Net-(D5-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 1 row0))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3950,15 +3950,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A5E7)
-    (at 195.92125 254.62875)
+    (at 110.447344 52.694477 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCC1C97)
     (autoplace_cost180 10)
-    (fp_text reference D4 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D4 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -3977,13 +3977,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(D4-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 1 row0))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 4 "Net-(D4-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 1 row0))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -3993,15 +3993,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A5CF)
-    (at 105.58125 330.46875)
+    (at 90.731657 52.670878 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCC1C8B)
     (autoplace_cost180 10)
-    (fp_text reference D3 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D3 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.6 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -4020,13 +4020,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(D3-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 1 row0))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 3 "Net-(D3-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 1 row0))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
@@ -4036,15 +4036,15 @@
   )
 
   (module _reviung-kbd:D3_SMD_1side (layer F.Cu) (tedit 5B7FD6E5) (tstamp 6054A5B7)
-    (at 53.18125 327.81875)
+    (at 69.701171 57.554182 75)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5DCBF1A2)
     (autoplace_cost180 10)
-    (fp_text reference D2 (at 0.5 0) (layer F.Fab) hide
+    (fp_text reference D2 (at 0.5 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value 1N4148W (at -0.6 0) (layer F.Fab) hide
+    (fp_text value 1N4148W (at -0.599999 0 75) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
@@ -4063,13 +4063,13 @@
     (fp_line (start -2.7 -0.75) (end -2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start -2.7 0.75) (end 2.7 0.75) (layer B.SilkS) (width 0.15))
     (fp_line (start 2.7 0.75) (end 2.7 -0.75) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(D2-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 1 row0))
-    (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.775 0 75) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask)
       (net 2 "Net-(D2-Pad2)"))
-    (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.775 0 75) (size 1.3 0.95) (layers F.Cu F.Paste F.Mask)
       (net 1 row0))
     (model Diodes_SMD.3dshapes/SMB_Handsoldering.wrl
       (at (xyz 0 0 0))
