@@ -808,8 +808,8 @@ L reviung41-rescue:SW_PUSH-_reviung-kbd SW39
 U 1 1 5DCE7A61
 P 5600 5250
 F 0 "SW39" H 5600 5505 50  0000 C CNN
-F 1 "SW_2U_PUSH" H 5600 5414 50  0000 C CNN
-F 2 "_reviung-kbd:MXOnly-2U-Hotswap-ReversedStabilizers" H 5600 5250 50  0001 C CNN
+F 1 "SW_PUSH" H 5600 5414 50  0000 C CNN
+F 2 "_reviung-kbd:MXOnly-1U-Hotswap" H 5600 5250 50  0001 C CNN
 F 3 "" H 5600 5250 50  0000 C CNN
 	1    5600 5250
 	1    0    0    -1  
