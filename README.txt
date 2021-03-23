@@ -1,5 +1,1 @@
-TODO:
-- add low profile support
-- add per key led support
-- increase alpha keys angle
-- increase pinky stagger a tiny bit
+At the time of creation, using Kicad 5.1.9 - This may not work with future versions

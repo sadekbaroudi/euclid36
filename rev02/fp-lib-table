@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name _reviung-kbd)(type KiCad)(uri ${KIPRJMOD}/libraries/all.pretty)(options "")(descr ""))
-)
