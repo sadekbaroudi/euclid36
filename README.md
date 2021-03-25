@@ -8,7 +8,7 @@ First prototype
 
 Layout
 
-![Euclid36 layout](/images/euclid36-prototype.jpg "Euclid36 layout")
+![Euclid36 layout](/images/euclid36-layout.png "Euclid36 layout")
 
 
 
