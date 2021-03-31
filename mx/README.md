@@ -1,14 +1,14 @@
 First prototype
 
-![Euclid36 Prototype](/images/euclid36-prototype.jpg "Euclid36 Prototype")
+![Euclid36 Prototype](/mx/images/euclid36-prototype.jpg "Euclid36 Prototype")
 
 3d render
 
-![Euclid36 3d render](/images/euclid36-3d.png "Euclid36 3d render")
+![Euclid36 3d render](/mx/images/euclid36-3d.png "Euclid36 3d render")
 
 Layout
 
-![Euclid36 layout](/images/euclid36-layout.png "Euclid36 layout")
+![Euclid36 layout](/mx/images/euclid36-layout.png "Euclid36 layout")
 
 
 
