@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name euclid36-libs)(type KiCad)(uri ${KIPRJMOD}/libraries/all.pretty)(options "")(descr ""))
+)
