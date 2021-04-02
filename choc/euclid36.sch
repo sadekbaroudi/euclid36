@@ -1908,7 +1908,7 @@ Text GLabel 2300 2750 2    50   Input ~ 0
 col3
 Text GLabel 2300 2850 2    50   Input ~ 0
 col4
-Text GLabel 2300 3050 0    50   Input ~ 0
+Text GLabel 2300 3050 2    50   Input ~ 0
 col5
 Text GLabel 2300 4050 2    50   Input ~ 0
 row0

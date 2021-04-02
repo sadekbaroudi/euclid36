@@ -1948,4 +1948,8 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    1700 3350
 	1    0    0    -1  
 $EndComp
+Text GLabel 1100 2850 0    50   Input ~ 0
+D+
+Text GLabel 1100 2950 0    50   Input ~ 0
+D-
 $EndSCHEMATC
