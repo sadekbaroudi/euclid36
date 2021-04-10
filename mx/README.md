@@ -1,3 +1,7 @@
+First working prototype
+
+![Euclid36 Working Prototype](/mx/images/euclid36-working-prototype.jpg "Euclid36 Working Prototype")
+
 First prototype
 
 ![Euclid36 Prototype](/mx/images/euclid36-prototype.jpg "Euclid36 Prototype")
