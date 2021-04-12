@@ -76,14 +76,14 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_Microchip_ATmega_ATmega32U4-AU
+# MCU_Microchip_ATmega_ATmega32U4-A
 #
-DEF MCU_Microchip_ATmega_ATmega32U4-AU U 0 20 Y Y 1 F N
+DEF MCU_Microchip_ATmega_ATmega32U4-A U 0 20 Y Y 1 F N
 F0 "U" -500 1750 50 H V L BNN
-F1 "MCU_Microchip_ATmega_ATmega32U4-AU" 100 -1750 50 H V L TNN
+F1 "MCU_Microchip_ATmega_ATmega32U4-A" 100 -1750 50 H V L TNN
 F2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATmega16U4RC-AU ATmega32U4-AU ATmega32U4RC-AU
+ALIAS ATmega16U4RC-A ATmega32U4-A ATmega32U4RC-A
 $FPLIST
  TQFP*10x10mm*P0.8mm*
 $ENDFPLIST

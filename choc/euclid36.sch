@@ -1679,12 +1679,12 @@ Wire Wire Line
 Wire Wire Line
 	2650 3950 2750 3950
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
+L MCU_Microchip_ATmega:ATmega32U4-A U2
 U 1 1 6066A810
 P 1700 3350
 F 0 "U2" H 1700 1461 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 1700 1370 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 1700 3350 50  0001 C CIN
+F 2 "euclid36-libs:ATMEGA32U4-AU" H 1700 3350 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 1700 3350 50  0001 C CNN
 F 4 "C44854" H 1700 3350 50  0001 C CNN "LCSC"
 	1    1700 3350
