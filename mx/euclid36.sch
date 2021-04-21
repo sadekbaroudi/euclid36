@@ -1142,8 +1142,6 @@ F 3 "" H 3250 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 1100 1550
-NoConn ~ 1100 1850
-NoConn ~ 1100 1950
 NoConn ~ 2500 1450
 NoConn ~ 2500 2550
 Text GLabel 1100 1450 0    50   Input ~ 0
@@ -1486,4 +1484,129 @@ Connection ~ 9450 6400
 Connection ~ 10050 5800
 Connection ~ 10050 6400
 NoConn ~ 10950 6100
+$Comp
+L kbd:OLED OL1
+U 1 1 60800FDF
+P 2000 3500
+F 0 "OL1" H 2628 3569 51  0000 L CNN
+F 1 "OLED" H 2628 3479 47  0000 L CNN
+F 2 "_reviung-kbd:OLED_v2" H 2000 3600 60  0001 C CNN
+F 3 "" H 2000 3600 60  0001 C CNN
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1100 1850 0    50   Input ~ 0
+SDA
+Text GLabel 1100 1950 0    50   Input ~ 0
+SCL
+Text GLabel 1250 3250 0    50   Input ~ 0
+SDA
+Text GLabel 1250 3400 0    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0101
+U 1 1 60807C4C
+P 950 3700
+F 0 "#PWR0101" H 950 3450 50  0001 C CNN
+F 1 "GND" V 955 3572 50  0000 R CNN
+F 2 "" H 950 3700 50  0001 C CNN
+F 3 "" H 950 3700 50  0001 C CNN
+	1    950  3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 3700 950  3700
+Wire Wire Line
+	1250 3550 1050 3550
+$Comp
+L reviung41-rescue:VCC-power #PWR0102
+U 1 1 6081A7F6
+P 1050 3550
+F 0 "#PWR0102" H 1050 3400 50  0001 C CNN
+F 1 "VCC" H 1068 3723 50  0000 C CNN
+F 2 "" H 1050 3550 50  0001 C CNN
+F 3 "" H 1050 3550 50  0001 C CNN
+	1    1050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:RotaryEncoder_Switch #SW1
+U 1 1 6081FEB2
+P 1600 4650
+F 0 "#SW1" H 1600 5017 50  0000 C CNN
+F 1 "RotaryEncoder_Switch" H 1600 4926 50  0000 C CNN
+F 2 "" H 1450 4810 50  0001 C CNN
+F 3 "~" H 1600 4910 50  0001 C CNN
+	1    1600 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 4550 2    50   Input ~ 0
+ENC1S1
+Text GLabel 2050 4750 2    50   Input ~ 0
+ENC1S2
+Text GLabel 1150 4550 0    50   Input ~ 0
+ENC1A
+Text GLabel 1150 4750 0    50   Input ~ 0
+ENC1B
+Wire Wire Line
+	1900 4550 2050 4550
+Wire Wire Line
+	1900 4750 2050 4750
+Wire Wire Line
+	1300 4550 1150 4550
+Wire Wire Line
+	1300 4750 1150 4750
+$Comp
+L power:GND #PWR0103
+U 1 1 6083ACEE
+P 1200 4650
+F 0 "#PWR0103" H 1200 4400 50  0001 C CNN
+F 1 "GND" V 1205 4522 50  0000 R CNN
+F 2 "" H 1200 4650 50  0001 C CNN
+F 3 "" H 1200 4650 50  0001 C CNN
+	1    1200 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 4650 1300 4650
+$Comp
+L Device:RotaryEncoder_Switch #SW2
+U 1 1 60847075
+P 1600 5500
+F 0 "#SW2" H 1600 5867 50  0000 C CNN
+F 1 "RotaryEncoder_Switch" H 1600 5776 50  0000 C CNN
+F 2 "" H 1450 5660 50  0001 C CNN
+F 3 "~" H 1600 5760 50  0001 C CNN
+	1    1600 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 5400 2    50   Input ~ 0
+ENC2S1
+Text GLabel 2050 5600 2    50   Input ~ 0
+ENC2S2
+Text GLabel 1150 5400 0    50   Input ~ 0
+ENC2A
+Text GLabel 1150 5600 0    50   Input ~ 0
+ENC2B
+Wire Wire Line
+	1900 5400 2050 5400
+Wire Wire Line
+	1900 5600 2050 5600
+Wire Wire Line
+	1300 5400 1150 5400
+Wire Wire Line
+	1300 5600 1150 5600
+$Comp
+L power:GND #PWR0104
+U 1 1 60847083
+P 1200 5500
+F 0 "#PWR0104" H 1200 5250 50  0001 C CNN
+F 1 "GND" V 1205 5372 50  0000 R CNN
+F 2 "" H 1200 5500 50  0001 C CNN
+F 3 "" H 1200 5500 50  0001 C CNN
+	1    1200 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 5500 1300 5500
 $EndSCHEMATC
