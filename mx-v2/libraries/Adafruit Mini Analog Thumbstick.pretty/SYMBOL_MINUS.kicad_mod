@@ -1,0 +1,11 @@
+(module SYMBOL_MINUS (layer F.Cu) (tedit 0)
+  (descr "<b>ICON</b><p> Minus Symbol")
+  (fp_text reference U$12 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value "" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_line (start 0.3968 0) (end -0.3969 0) (layer F.SilkS) (width 0.3048))
+  (fp_circle (center 0 0) (end 0.7817 0) (layer F.SilkS) (width 0.2032))
+)

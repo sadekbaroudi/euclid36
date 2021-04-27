@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name _reviung-kbd)(type KiCad)(uri ${KIPRJMOD}/libraries/all.pretty)(options "")(descr ""))
+  (lib (name adafruit-analog-thumbstick)(type KiCad)(uri "${KIPRJMOD}/libraries/Adafruit Mini Analog Thumbstick.pretty")(options "")(descr ""))
+  (lib (name SparkFun-Switches)(type KiCad)(uri ${KIPRJMOD}/libraries/SparkFun-Switches.pretty)(options "")(descr ""))
 )
