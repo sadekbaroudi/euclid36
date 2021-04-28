@@ -1405,28 +1405,26 @@ LED
 $Comp
 L Device:R_Small R1
 U 1 1 60688D69
-P 2550 3950
-F 0 "R1" V 2354 3950 50  0000 C CNN
-F 1 "10k" V 2445 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 2550 3950 50  0001 C CNN
-F 3 "~" H 2550 3950 50  0001 C CNN
-F 4 "C17414" V 2550 3950 50  0001 C CNN "LCSC"
-	1    2550 3950
+P 2400 3950
+F 0 "R1" V 2204 3950 50  0000 C CNN
+F 1 "10k" V 2295 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2400 3950 50  0001 C CNN
+F 3 "~" H 2400 3950 50  0001 C CNN
+F 4 "C17414" V 2400 3950 50  0001 C CNN "LCSC"
+	1    2400 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 6068E7A9
-P 2750 3950
-F 0 "#PWR0103" H 2750 3700 50  0001 C CNN
-F 1 "GND" H 2755 3777 50  0000 C CNN
-F 2 "" H 2750 3950 50  0001 C CNN
-F 3 "" H 2750 3950 50  0001 C CNN
-	1    2750 3950
-	1    0    0    1   
+P 2500 3950
+F 0 "#PWR0103" H 2500 3700 50  0001 C CNN
+F 1 "GND" H 2505 3777 50  0000 C CNN
+F 2 "" H 2500 3950 50  0001 C CNN
+F 3 "" H 2500 3950 50  0001 C CNN
+	1    2500 3950
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2450 3950 2300 3950
 $Comp
 L Device:C_Small C1
 U 1 1 606AA4A9
@@ -1622,7 +1620,7 @@ Wire Wire Line
 Connection ~ 1400 7650
 Wire Wire Line
 	1750 7600 1750 7650
-Text GLabel 2300 4750 2    50   Input ~ 0
+Text GLabel 2300 3550 2    50   Input ~ 0
 col0
 Text GLabel 2300 4650 2    50   Input ~ 0
 col1
@@ -1632,7 +1630,7 @@ Text GLabel 2300 4450 2    50   Input ~ 0
 col3
 Text GLabel 2300 4350 2    50   Input ~ 0
 col4
-Text GLabel 2300 4250 2    50   Input ~ 0
+Text GLabel 2300 2550 2    50   Input ~ 0
 col5
 Text GLabel 2300 2050 2    50   Input ~ 0
 row0
@@ -1659,8 +1657,6 @@ Wire Wire Line
 	1700 1550 1600 1550
 Wire Wire Line
 	1800 1550 1700 1550
-Wire Wire Line
-	2650 3950 2750 3950
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-A U2
 U 1 1 6066A810
@@ -2343,13 +2339,9 @@ F 4 "COMP-09744" H 3928 1016 60  0000 L CNN "Field4"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 2550 2650 2550
-Wire Wire Line
 	2650 2550 2650 850 
 Wire Wire Line
 	2650 850  3300 850 
-Wire Wire Line
-	2300 3550 2700 3550
 Wire Wire Line
 	2700 3550 2700 1250
 Wire Wire Line
@@ -2412,12 +2404,10 @@ Wire Wire Line
 	2750 3150 2300 3150
 Wire Wire Line
 	3100 3550 2700 3550
-Connection ~ 2700 3550
 Wire Wire Line
 	2750 1550 3300 1550
 Wire Wire Line
 	2650 2550 3100 2550
-Connection ~ 2650 2550
 $Comp
 L power:GND #PWR0122
 U 1 1 60BD365C
@@ -2448,4 +2438,14 @@ F 4 "C727110" V 6550 2400 50  0001 C CNN "LCSC"
 	1    6550 2400
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2700 3550 2700 4250
+Wire Wire Line
+	2700 4250 2300 4250
+Connection ~ 2700 3550
+Wire Wire Line
+	2650 4750 2300 4750
+Connection ~ 2650 2550
+Wire Wire Line
+	2650 2550 2650 4750
 $EndSCHEMATC
