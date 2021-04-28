@@ -1417,7 +1417,7 @@ Text GLabel 1100 2250 0    50   Input ~ 0
 XTAL2
 Text GLabel 1100 1850 0    50   Input ~ 0
 reset
-Text GLabel 2450 1350 2    50   Input ~ 0
+Text GLabel 2300 2150 2    50   Input ~ 0
 LED
 $Comp
 L Device:R_Small R1

@@ -1679,7 +1679,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3950 2750 3950
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
+L MCU_Microchip_ATmega:ATmega32U4-A U2
 U 1 1 6066A810
 P 1700 3350
 F 0 "U2" H 1700 1461 50  0000 C CNN
