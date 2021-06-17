@@ -2127,9 +2127,9 @@ Wire Wire Line
 	1750 9450 1500 9450
 Wire Wire Line
 	1750 9300 1500 9300
-Text GLabel 2300 3250 2    50   Input ~ 0
+Text GLabel 2300 3150 2    50   Input ~ 0
 SDA
-Text GLabel 2300 3350 2    50   Input ~ 0
+Text GLabel 2300 3050 2    50   Input ~ 0
 SCL
 Text GLabel 4000 2800 0    50   Input ~ 0
 ENC1A
@@ -2399,10 +2399,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 1350 3300 1350
 Wire Wire Line
-	2750 1550 2750 3150
-Wire Wire Line
-	2750 3150 2300 3150
-Wire Wire Line
 	3100 3550 2700 3550
 Wire Wire Line
 	2750 1550 3300 1550
@@ -2494,4 +2490,47 @@ Wire Wire Line
 Wire Wire Line
 	2800 4250 2700 4250
 Connection ~ 2700 4250
+Text GLabel 1800 800  1    50   Input ~ 0
+VBUS
+$Comp
+L power:+5V #PWR?
+U 1 1 609F3BED
+P 1800 900
+F 0 "#PWR?" H 1800 750 50  0001 C CNN
+F 1 "+5V" H 1815 1073 50  0000 C CNN
+F 2 "" H 1800 900 50  0001 C CNN
+F 3 "" H 1800 900 50  0001 C CNN
+	1    1800 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 800  1800 900 
+Wire Wire Line
+	2750 3350 2300 3350
+Wire Wire Line
+	2750 1550 2750 3350
+$Comp
+L power:VCC #PWR?
+U 1 1 60CDE125
+P 2100 800
+F 0 "#PWR?" H 2100 650 50  0001 C CNN
+F 1 "VCC" H 2115 973 50  0000 C CNN
+F 2 "" H 2100 800 50  0001 C CNN
+F 3 "" H 2100 800 50  0001 C CNN
+	1    2100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60CDF6C3
+P 2100 950
+F 0 "#PWR?" H 2100 800 50  0001 C CNN
+F 1 "+5V" H 2115 1123 50  0000 C CNN
+F 2 "" H 2100 950 50  0001 C CNN
+F 3 "" H 2100 950 50  0001 C CNN
+	1    2100 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 800  2100 950 
 $EndSCHEMATC

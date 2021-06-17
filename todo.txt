@@ -1,5 +1,6 @@
 euclid36 mx-2
 * the power has to run through the decoupling caps before the MCU
-* connect v-bus to 5v, the MCU has no power right now! I had to manually wire them together
-* connect 5v to vcc, the vcc line doesn't have power either! had to manually wire as well
-* the OLED is not connected to the right pins... It doesn't work. The data pins should be connected to pins 18 and 19 (SCL and SDA for QMK to use I2C to communicate with it)
+* (x) connect v-bus to 5v, the MCU has no power right now! I had to manually wire them together
+* (x) connect 5v to vcc, the vcc line doesn't have power either! had to manually wire as well
+* (x) the OLED is not connected to the right pins... It doesn't work. The data pins should be connected to pins 18 and 19 (SCL and SDA for QMK to use I2C to communicate with it)
+* add pimoroni trackball support in the center... note that seems to use SCL and SDA, so the user may need to choose between the pimoroni or the OLED

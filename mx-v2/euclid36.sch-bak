@@ -1980,7 +1980,7 @@ F 0 "U1" V 8754 9594 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 8845 9594 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8800 8650 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 9000 9500 50  0001 C CNN
-F 4 "C7519" H 8800 9150 50  0001 C CNN "LCSC"
+F 4 "C558442" H 8800 9150 50  0001 C CNN "LCSC"
 	1    8800 9150
 	0    1    1    0   
 $EndComp
@@ -2494,4 +2494,19 @@ Wire Wire Line
 Wire Wire Line
 	2800 4250 2700 4250
 Connection ~ 2700 4250
+Text GLabel 1800 800  1    50   Input ~ 0
+VBUS
+$Comp
+L power:+5V #PWR?
+U 1 1 609F3BED
+P 1800 900
+F 0 "#PWR?" H 1800 750 50  0001 C CNN
+F 1 "+5V" H 1815 1073 50  0000 C CNN
+F 2 "" H 1800 900 50  0001 C CNN
+F 3 "" H 1800 900 50  0001 C CNN
+	1    1800 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 800  1800 900 
 $EndSCHEMATC

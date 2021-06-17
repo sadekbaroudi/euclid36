@@ -87433,21 +87433,20 @@ adafruit-analog-thumbstick
 PCBFEAT-REV-040
 <b>Revision Level Field</b> - 40 mil<p>
 Set version with global board attribute '>REV'
-
+0
 0
 0
 0
 adafruit-analog-thumbstick
 SYMBOL_MINUS
 <b>ICON</b><p> Minus Symbol
-
+0
 0
 0
 0
 adafruit-analog-thumbstick
 SYMBOL_PLUS
 <b>ICON</b><p> Plus Sign Symbol
-
 0
 0
 0
